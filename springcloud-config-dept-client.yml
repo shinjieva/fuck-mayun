@@ -21,7 +21,7 @@ spring:
       max-total: 5
       max-wait-millis: 200 
 mybatis:
-  config-location: classpath:mybatis/mybatis.cfg.xml
+  config-location: classpath:mybatis.cfg.xml
   type-aliases-package: com.tomoki.pojo
   mapper-locations:
   - classpath:com/tomoki/mapper/*.xml
@@ -60,7 +60,7 @@ spring:
   
   
 mybatis:
-  config-location: classpath:mybatis/mybatis.cfg.xml
+  config-location: classpath:mybatis.cfg.xml
   type-aliases-package: com.tomoki.pojo
   mapper-locations:
   - classpath:com/tomoki/mapper/*.xml
